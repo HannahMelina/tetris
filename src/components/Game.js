@@ -1,6 +1,6 @@
 import Menu from "./Menu";
 import Tetris from "./Tetris";
-import useGameOver from "../hooks/useGameOver";
+import { useGameOver } from "../hooks/useGameOver";
 
 const Game = ({ rows, columns }) => {
   const [gameOver, setGameOver, resetGameOver] = useGameOver();

@@ -3,11 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
   color: #fff;
   background-color: #406;
-  height: 100vh;
+  height: 100%;
   padding: 20px;
+  height: 100%;
+}
+
+.Game {
+  height: 100%;
 }

@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 
-const useGameOver = () => {
+export const useGameOver = () => {
   const [gameOver, setGameOver] = useState(true);
 
   const resetGameOver = useCallback(() => {
@@ -9,5 +9,3 @@ const useGameOver = () => {
 
   return [gameOver, setGameOver, resetGameOver];
 };
-
-export default useGameOver;
