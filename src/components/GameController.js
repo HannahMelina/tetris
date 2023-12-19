@@ -1,6 +1,4 @@
 import "./GameController.css";
-import Board from "./Board";
-import GameStats from "./GameStats";
 import { Action, actionForKey, actionIsDrop } from "../business/Input";
 import { playerController } from "../business/PlayerController";
 import { useRef } from "react";
